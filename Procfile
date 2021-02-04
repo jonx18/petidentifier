@@ -1,1 +1,1 @@
-web: voila --debug --port=$PORT --no-browser --enable_nbextensions=True petidentifier_web.ipynb
+web: sleep 10 && touch '/tmp/app-initialized' & bin/start-nginx streamlit run --server.enableCORS false --server.port 8501 app.py

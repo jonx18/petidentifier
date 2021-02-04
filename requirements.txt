@@ -1,7 +1,9 @@
-voila
-fastai
-ipywidgets
-wandb
 streamlit==0.75.0
+fastai==2.2.5
 numpy==1.18.1
 pandas==1.0.3
+torch==1.7.1
+torchvision==0.8.2
+voila
+ipywidgets
+wandb
