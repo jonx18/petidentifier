@@ -18,7 +18,7 @@ def get_x(r): return path/r['fname']
 def get_y(r): return r['labels'].split(' ')
 
 
-learn = load_learner('petandfamilyidentifier_windows.pkl', cpu=True)
+learn = load_learner('petandfamilyidentifier_linux.pkl', cpu=True)
 
 st.set_page_config(layout="wide")
 st.title('Pet and Family identifier V2')
