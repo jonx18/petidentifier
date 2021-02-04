@@ -25,7 +25,7 @@ st.set_page_config(layout="wide")
 st.title('Pet and Family identifier V2')
 st.header('Summary')
 st.markdown('The app was consibed with the idea of auto identifier my family\'s pets:heart_eyes:, and also some family members.:sweat_smile:')
-st.markdown('This version of the app has a facewhashing powered by Streamlit.')
+st.markdown('This version of the app has a face whashing powered by Streamlit.')
 st.markdown('Finally, it\'s include new funcionality to handle multiple images at the same time. Also a section with examples bellow.')
 
 uploaded_files = st.file_uploader("Upload your photos", type = ['jpg','jpeg','png'],
