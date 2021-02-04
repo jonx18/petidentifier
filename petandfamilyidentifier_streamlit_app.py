@@ -4,6 +4,7 @@ Created on Thu Feb  4 08:45:45 2021
 
 @author: Jonx-PC
 """
+import fastai
 from pathlib import Path
 from fastai.vision.all import *
 from fastai.vision.widgets import *
